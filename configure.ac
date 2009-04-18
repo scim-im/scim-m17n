@@ -1,5 +1,5 @@
 # Process this file with autoconf to produce a configure script.
-AC_INIT(scim-m17n, 0.2.2, suzhe@tsinghua.org.cn)
+AC_INIT(scim-m17n, 0.2.3, suzhe@tsinghua.org.cn)
 AC_CONFIG_SRCDIR([src/scim_m17n_imengine.h])
 
 # Save this value here, since automake will set cflags and cxxflags later
@@ -8,7 +8,7 @@ cppflags_set=${CPPFLAGS+set}
 
 SCIM_M17N_MAJOR_VERSION=0
 SCIM_M17N_MINOR_VERSION=2
-SCIM_M17N_MICRO_VERSION=2
+SCIM_M17N_MICRO_VERSION=3
 
 SCIM_M17N_VERSION=$SCIM_M17N_MAJOR_VERSION.$SCIM_M17N_MINOR_VERSION.$SCIM_M17N_MICRO_VERSION
 
